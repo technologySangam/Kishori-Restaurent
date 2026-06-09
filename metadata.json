@@ -1,0 +1,6 @@
+{
+  "name": "Kishori Restaurant",
+  "description": "Premium pure vegetarian family restaurant website in Pratapgarh, Uttar Pradesh featuring online ordering, table reservations, AI assistant, and admin/customer dashboards.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

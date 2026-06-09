@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Manrope:wght@300;400;500;600;700;800&family=Montserrat:wght@500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-display: "Playfair Display", Georgia, serif;
+  --font-sub: "Cormorant Garamond", Georgia, serif;
+  --font-button: "Montserrat", sans-serif;
+  
+  --color-primary-brand: #0F4C5C;
+  --color-secondary-brand: #1B4332;
+  --color-accent-brand: #E9C46A;
+  --color-bg-brand: #FAF9F6;
+  --color-text-primary: #1A1A1A;
+  --color-text-secondary: #666666;
+  --color-card-bg: #FFFFFF;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-bg-brand);
+  color: var(--color-text-primary);
+}
+
+h1, h2, h3, h4, .font-serif-lux {
+  font-family: var(--font-serif);
+}
+
+.font-sub-lux {
+  font-family: var(--font-sub);
+}
+
+.font-button-lux {
+  font-family: var(--font-button);
+}
+
+/* Custom Glassmorphism styles */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.glass-panel-dark {
+  background: rgba(15, 76, 92, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Custom gold gradient */
+.gold-gradient {
+  background: linear-gradient(135deg, #FFE082 0%, #E9C46A 50%, #B8860B 100%);
+}
+
+.text-gold-gradient {
+  background: linear-gradient(135deg, #FFE082 0%, #E9C46A 50%, #B8860B 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
